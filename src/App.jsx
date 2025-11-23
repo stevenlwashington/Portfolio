@@ -10,7 +10,7 @@ const DATA = {
   profile: {
     name: "Steven L. Washington",
     title: "Technical Product & Program Leader",
-    tagline: "Accelerating AI, Engineering, and GTM velocity through scalable internal platforms.",
+    tagline: "Accelerating AI, Engineering, and go-to-market velocity through scalable internal platforms.",
     bio: "I turn technical complexity into organizational leverage. With 16+ years driving enterprise modernization, I build the internal platforms that allow research and sales teams to move faster—securely. From defining AI governance frameworks to optimizing multi-billion dollar Salesforce instances, I bridge the gap between infrastructure strategy and business outcome.",
     social: { 
       linkedin: "https://www.linkedin.com/in/stevenlwashington", 
@@ -802,7 +802,7 @@ const App = () => {
               onClick={() => setChatOpen(true)}
               className="px-8 py-4 bg-white text-slate-900 font-bold rounded-lg hover:bg-slate-200 transition-colors shadow-lg shadow-white/5"
             >
-              Ask about my Resume
+              Ask About My Experience
             </button>
             <button 
               onClick={() => document.getElementById('work').scrollIntoView({behavior: 'smooth'})}
